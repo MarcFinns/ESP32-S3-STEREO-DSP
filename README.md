@@ -70,7 +70,7 @@ the flavour of the development board! **Look it up!**
 - [PCM5102A DAC datasheet](https://www.ti.com/lit/ds/symlink/pcm5102a.pdf)
 - [ESP32 I2S Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2s.html)
 
-## Boards
+## Breakout boards
 
 The following breakout boards are matching the PCB.
 If different ones are used, schematic is still valid but re-routing of the PCB might become necessary.
