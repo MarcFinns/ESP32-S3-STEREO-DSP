@@ -47,7 +47,7 @@ GPIO Connector
 
 ## Important notes
 
-- Some PCM1808 ADC breakout boards have a very aggressive low pass filter (the filter is optional from the datasheet, and they chose a wrong capacitor value). This results in a lowpass filter at 6Khz! If sound is muffled, you can just desolder the caps (or break them, it is fine). See picture
+- Some PCM1808 ADC breakout boards have a **very aggressive low pass filter** (the filter is optional from the datasheet, and they chose a wrong capacitor value). This results in a lowpass filter at 6Khz! If sound is muffled, you can just desolder the caps (or break them, it is fine). See picture
 
 - The board is designed to be powered 
 both from USB on the ESP and from the Vin, 
@@ -58,17 +58,12 @@ S3 board that enables 5V out.
 The location of the jumper depends on 
 the flavour of the development board! **Look it up!**
 
-- The board can be powered with a power supply connected to the Vin connector (12v max) so that it can work standalone / when not connected to a PC via USB. To that end, a LDO is included in the schematic. It can be skipped if only USB power is necessary. The LDO (AMS1117 family) can be either ADJ or 5V fixed version. A solder jumper on the PCB is provided to select the version. If fixed, connect SJ1 jumper to GND. If adj, connect to R divider.
+- The board can be powered with a power supply connected to the Vin connector (12v max) so that it can work standalone / when not connected to a PC via USB. To that end, a LDO is included in the schematic. It can be skipped if only USB power is necessary. The LDO (AMS1117 family) can be either ADJ or 5V fixed version. A solder jumper on the PCB is provided to select the version. If fixed, connect SJ1 jumper to GND. If adj, connect to R divider. **If left not connected, bad things will happen**
 
 - The PCB and schematic in the folder are correct. The pictures are of my first prototybe that had some mistakes, corrected later!
 
 - SMD components are 0805 size. If uneasy with SMD, one could just redesign the PCB with through hole, keeping the schematic and even the routing - just make it larger
 
-## References
-
-- [PCM1808 ADC datasheet](https://www.ti.com/lit/ds/symlink/pcm1808.pdf)
-- [PCM5102A DAC datasheet](https://www.ti.com/lit/ds/symlink/pcm5102a.pdf)
-- [ESP32 I2S Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2s.html)
 
 ## Breakout boards
 
@@ -79,5 +74,13 @@ If different ones are used, schematic is still valid but re-routing of the PCB m
 - [PCM1808 ADC breakout board](https://nl.aliexpress.com/item/1005006749086540.html)
 - [PCM5102A DAC breakout board](https://nl.aliexpress.com/item/1005009648364414.html)
 - [ESP32-S3 N16R8](https://nl.aliexpress.com/item/1005007319706057.html)
+
+## References
+
+- [PCM1808 ADC datasheet](https://www.ti.com/lit/ds/symlink/pcm1808.pdf)
+- [PCM5102A DAC datasheet](https://www.ti.com/lit/ds/symlink/pcm5102a.pdf)
+- [ESP32-S3 documentation](https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf)
+- [ESP32 I2S Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2s.html)
+
 
 
