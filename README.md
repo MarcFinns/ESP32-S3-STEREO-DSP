@@ -4,6 +4,8 @@ A board with ESP32-S3, ADC, DAC, LCD display for audio application and beyond.
 While these components can be connected in principle on any breakout board for prototyping, proper power decoupling and series terminator resistors are necessary to avoid noise and interference.
 This board ensures that all signals are appropriately decoupled and routed, on a single layer PCB.
 
+The board was used to develop the [PiratESP32 FM RDS STEREO ENCODER](https://github.com/MarcFinns/PiratESP32-FM-RDS-STEREO-ENCODER)
+
 ## Features
 
 ### ESP32 Board
