@@ -12,7 +12,7 @@ The board was used to develop the [PiratESP32 FM RDS STEREO ENCODER](https://git
 
 ### ESP32 Board
 - **ESP32-S3 N16R8** with dual-core processor with SIMD (vector) instructions to boost DSP applications
- **ADC**: PCM1808 I2S audio ADC (24 bit, up to 96 kHz sample rate, I2S slave)
+- **ADC**: PCM1808 I2S audio ADC (24 bit, up to 96 kHz sample rate, I2S slave)
 - **DAC**: PCM5102A I2S audio DAC (16/24/32 bit, up to 192 kHz sample rate, I2S slave)
 - **Display (optional)** ILI9341 320×240 TFT LCD (SPI interface)
 - **GPIO connector** for LED/buttons or anything else
