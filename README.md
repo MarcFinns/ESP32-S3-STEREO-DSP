@@ -6,7 +6,7 @@ This board ensures that all signals are appropriately decoupled and routed, on a
 
 The board was used to develop the [PiratESP32 FM RDS STEREO ENCODER](https://github.com/MarcFinns/PiratESP32-FM-RDS-STEREO-ENCODER)
 
-![In action](Pictures/PCB%20BOTTOM.jpeg)
+![In action](Pictures/IN%20ACTION.jpeg)
 
 ## Features
 
